@@ -3,6 +3,10 @@
 The WCS remote service app is a contrib module for GeoNode. The app is compatible with GeoNode v4.x.
 
 It adds a service processor and harvester to allow importing layer metadata from remote WCS servers into GeoNode.
+The module has been developed as a proof of concept.
+Main goal was to import WCS layers into the catalogue and serve it from the GeoNode backend.
+The UI part is not fully supported, i.e. MapStore2 and geonode-mapstore-client have not been extended to support and query WCS layers and display them on a map, yet.
+
 Only public WCS servers are supported.
 
 ## Installation and configuration
